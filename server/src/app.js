@@ -17,6 +17,10 @@ app.get('/',(req,res)=>{
       });
 });
 
+app.get('/test',(req,res)=>{
+  res.send("test")
+})
+
 const port=3000;
 
 app.listen(port,()=>{
